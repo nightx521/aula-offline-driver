@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# Node & Build artifacts
+node_modules/
+npm_cache/
+dist/
+electron_data/
+app_profile/
+crashes/
+
+# OS specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Backups
+*.bak

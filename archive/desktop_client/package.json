@@ -1,0 +1,24 @@
+{
+  "name": "aula-offline-driver",
+  "version": "1.0.0",
+  "description": "狼蛛键盘全系列 100% 本地离线驱动控制面板 (AULA WebHID Offline Driver)",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron . --no-sandbox",
+    "pack": "electron-packager . \"AULA Local Driver\" --platform=win32 --arch=x64 --out=dist --overwrite --icon=site/favicon.ico"
+  },
+  "keywords": [
+    "aula",
+    "keyboard",
+    "webhid",
+    "offline-driver",
+    "f75",
+    "f87",
+    "f99"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^33.2.0"
+  }
+}
